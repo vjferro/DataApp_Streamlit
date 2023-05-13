@@ -1,0 +1,25 @@
+Este conjunto de dados contém uma lista de videogames com vendas superiores a 100.000 cópias. Foi gerado por uma raspagem de vgchartz.com .
+
+Os campos incluem:
+
+:star: **Classificação** - Classificação das vendas gerais
+
+:page_with_curl: **Nome** - O nome do jogo
+
+:video_game: **Plataforma** - Plataforma de lançamento dos jogos (ou seja, PC, PS4, etc.)
+
+:calendar: **Ano** - Ano de lançamento do jogo
+
+:art: **Gênero** - Gênero do jogo
+
+:space_invader: **Editora** - Editora do jogo
+
+:dollar: **NA_Sales** - Vendas na América do Norte (em milhões)
+
+:credit_card: **EU_Sales** - Vendas na Europa (em milhões)
+
+:japan: **JP_Sales** - Vendas no Japão (em milhões)
+
+:office: **Other_Sales** - Vendas no resto do mundo (em milhões)
+
+:earth_americas: **Global_Sales** - Total de vendas mundiais.
