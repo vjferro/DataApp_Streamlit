@@ -33,8 +33,7 @@ image = Image.open('imagens/logo sem legenda.png')
 dados = pd.read_csv('dados/vgsales.csv')
 dados.dropna(inplace=True)
 dados['Ano'] = dados['Ano'].astype(int)
-with open("Texto/texto2.txt", "r") as arquivo:
-	texto = arquivo.read()
+
 
 def carregarsvg (file:str):
      with open(file,"r") as f:
@@ -71,7 +70,7 @@ if selecao == 'Início':
 if selecao == 'Dados':
     st.markdown("<h1 style='text-align:center;'>  Dados 🎲</h1>", unsafe_allow_html=True)
     st.divider()
-    st.markdown(texto)
+    
     st.markdown("<h1 style='text-align:center;'>Visualizando o DataFrame 📑</h1>", unsafe_allow_html=True)
     st.divider()
     filtro = dataframe_explorer(dados, case=False)
